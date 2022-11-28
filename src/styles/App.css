@@ -1,5 +1,6 @@
 @import url("./globals.css");
 
+/* Main Container / Component */
 .calc-app {
   display: flex;
   min-height: 100vh;
@@ -13,3 +14,46 @@
   width: 35%;
   min-height: 55%;
 }
+
+/* Titlebar */
+.titlebar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  color: var(--clr-text-light);
+  font-weight: var(--fw-bold);
+}
+
+/* Result Window */
+.window {
+  height: 20%;
+  display: flex;
+  padding: 6px 18px;
+  border-radius: 10px;
+  justify-content: end;
+  background-color: var(--clr-accent);
+}
+
+.res {
+  font-size: var(--fs-900);
+  font-weight: var(--fw-bold);
+  color: var(--clr-text-light);
+}
+
+/* Numpad  */
+.numpad {
+  display: flex;
+  justify-content: center;
+}
+.grid {
+  margin: auto;
+  padding: 10px;
+}
+.btn {
+  padding: 25px 40px;
+  border-radius: 10px;
+}
+
+/* Numpad Buttons */

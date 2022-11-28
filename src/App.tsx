@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="calc-app">
       <div className='container'>
-        <TitleBar/>
-        <ResWindow/> 
-        <Numpad/>
+        {/* <TitleBar/> */}
+        {/* <ResWindow/>  */}
+        {/* <Numpad/> */}
       </div>
       <Footer/>
     </div>
