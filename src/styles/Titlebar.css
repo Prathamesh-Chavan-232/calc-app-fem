@@ -1,0 +1,9 @@
+.titlebar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  color: var(--clr-text-light);
+  font-weight: var(--fw-bold);
+}

@@ -1,0 +1,15 @@
+@import url("./globals.css");
+
+.calc-app {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--fs-600);
+  font-family: var(--ff-primary);
+}
+
+.container {
+  width: 35%;
+  min-height: 55%;
+}

@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;800&display=swap");
+
+/* Colors & font-sizes */
+:root {
+  --clr-bg: #3b4664;
+  --clr-accent: #181f32;
+  --clr-text-light: #fcfeff;
+
+  --ff-primary: "League Spartan", sans-serif;
+
+  --fw-regular: 400;
+  --fw-semi-bold: 600;
+  --fw-bold: 800;
+
+  --fs-300: 0.8125rem;
+  --fs-400: 0.875rem;
+  --fs-500: 1rem;
+  --fs-600: 1.875rem;
+  --fs-700: 1.875rem;
+  --fs-800: 2.5rem;
+  --fs-900: 3.2rem;
+}
+
+/* Utilities Classes */
+.text-primary {
+  color: var(--clr-primary);
+}
+.text-accent {
+  color: var(--clr-accent);
+}
+.text-accent-light {
+  color: var(--clr-accent-light);
+}
+
+.text-neutral {
+  color: var(--clr-neutral);
+}
+.text-neutral-light {
+  color: var(--clr-neutral-light);
+}
