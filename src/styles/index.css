@@ -84,8 +84,8 @@ h6 {
     scroll-behavior: auto !important;
   }
 }
-/* Global Styles */
 
+/* Global Styles */
 body {
   background-color: var(--clr-bg);
 }

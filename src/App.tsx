@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import './styles/App.css'
+import './styles/App.scss'
 
 import Footer from './components/Footer'
 import Numpad from './components/Numpad'
@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="calc-app">
       <div className='container'>
-        {/* <TitleBar/> */}
-        {/* <ResWindow/>  */}
-        {/* <Numpad/> */}
+        <TitleBar/>
+        <ResWindow/> 
+        <Numpad/>
       </div>
       <Footer/>
     </div>

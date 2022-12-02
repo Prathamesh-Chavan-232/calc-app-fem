@@ -1,5 +1,4 @@
 import ThemeTabs from './ThemeTabs'
-import "../styles/Titlebar.css"
 
 export default function TitleBar(): JSX.Element {
     return (

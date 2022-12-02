@@ -2,20 +2,35 @@
 
 /* Colors & font-sizes */
 :root {
-  --clr-bg: #3b4664;
-  --clr-accent: #181f32;
-  --clr-text-light: #fcfeff;
+  /* Background Colors  */
+  --clr-bg: hsl(222, 26%, 31%);
+  --clr-res-tab: hsl(224, 36%, 15%);
+  --clr-keypad: hsl(223, 31%, 20%);
 
+  /* Text Colors */
+  --clr-text-light: hsl(0, 0%, 100%);
+  --clr-text-dark: hsl(221, 14%, 31%);
+
+  /* Button Colors  */
+  --clr-btn: hsl(30, 25%, 89%);
+  --clr-btn-br: hsl(28, 16%, 65%);
+
+  --clr-btn-red: hsl(6, 63%, 50%);
+  --clr-btn-br-red: hsl(6, 70%, 34%);
+
+  --clr-btn-blue: hsl(225, 21%, 49%);
+  --clr--btn-br-blue: hsl(224, 28%, 35%);
+
+  /* font family */
   --ff-primary: "League Spartan", sans-serif;
 
   --fw-regular: 400;
   --fw-semi-bold: 600;
-  --fw-bold: 800;
+  --fw-bold: 700;
 
-  --fs-300: 0.8125rem;
   --fs-400: 0.875rem;
   --fs-500: 1rem;
-  --fs-600: 1.875rem;
+  --fs-600: 1.475rem;
   --fs-700: 1.875rem;
   --fs-800: 2.5rem;
   --fs-900: 3.2rem;
