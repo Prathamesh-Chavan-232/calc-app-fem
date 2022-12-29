@@ -1,0 +1,66 @@
+@import url("./globals.css");
+
+/* Main Container / Component */
+.calc-app {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--fs-800);
+  font-family: var(--ff-primary);
+
+  .container {
+    width: 35%;
+    min-height: 55%;
+  }
+
+  /* Titlebar */
+  .titlebar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title {
+    color: var(--clr-text-light);
+    font-weight: var(--fw-bold);
+  }
+
+  /* Result Window */
+  .window {
+    height: 20%;
+    display: flex;
+    padding: 6px 18px;
+    border-radius: 10px;
+    justify-content: end;
+    background-color: var(--clr-res-tab);
+  }
+
+  .res {
+    font-size: var(--fs-900);
+    font-weight: var(--fw-bold);
+    color: var(--clr-text-light);
+  }
+
+  /* Numpad  */
+  .numpad {
+    display: flex;
+    justify-content: center;
+    background-color: var(--clr-keypad);
+
+    .grid-container {
+    margin: auto;
+    padding: 10px;
+    }
+
+    .btn {
+    padding: 25px 40px;
+    border-radius: 10px;
+    background: var(--clr-btn);
+    color:var(--clr-text-dark);
+    font-weight: var(--fw-bold);
+    font-size:var(--fs-700);
+    }
+  }
+  /* Numpad Buttons */
+
+}
