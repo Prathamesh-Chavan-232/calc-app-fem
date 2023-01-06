@@ -14,12 +14,15 @@
   /* Button Colors  */
   --clr-btn: hsl(30, 25%, 89%);
   --clr-btn-br: hsl(28, 16%, 65%);
+  --clr-btn-hover: hsl(0, 0%, 100%);
 
   --clr-btn-red: hsl(6, 63%, 50%);
-  --clr-btn-br-red: hsl(6, 70%, 34%);
+  --clr-btn-red-br: hsl(6, 70%, 34%);
+  --clr-btn-red-hover: hsl(6, 96%, 68%);
 
   --clr-btn-blue: hsl(225, 21%, 49%);
-  --clr--btn-br-blue: hsl(224, 28%, 35%);
+  --clr-btn-blue-br: hsl(224, 28%, 35%);
+  --clr-btn-blue-hover: hsl(225, 37%, 63%);
 
   /* font family */
   --ff-primary: "League Spartan", sans-serif;
