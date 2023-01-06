@@ -1,6 +1,19 @@
 import React from 'react'
 
 export default function Numpad() {
+
+  function onButtonTap() {
+    let btn = document.querySelector('button')
+    if(btn?.textContent == 'DEL') {
+
+    } else if(btn?.textContent == 'RESET') {
+
+    } else if(btn?.textContent == '=') {
+
+    } else {
+    
+    }
+  }  
   // const grid:string[]= ['7','8','9','DEL','4','5','6','+','1','2','3','-','.','0','/','x','RESET','='];
   return (
     <div className='numpad'>

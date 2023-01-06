@@ -6,7 +6,6 @@
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  font-size: var(--fs-800);
   font-family: var(--ff-primary);
 
   .container {
@@ -16,6 +15,8 @@
   /* Titlebar */
   .titlebar {
     display: flex;
+    font-size: var(--fs-800);
+    font-weight: bold;
     justify-content: space-between;
   }
 
