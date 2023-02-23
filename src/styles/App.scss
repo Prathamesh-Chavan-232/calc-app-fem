@@ -2,140 +2,140 @@
 
 /* Main Container / Component */
 .calc-app {
-  display: flex;
-  min-height: 100vh;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--ff-primary);
+	display: flex;
+	min-height: 100vh;
+	align-items: center;
+	justify-content: center;
+	font-family: var(--ff-primary);
 
-  .container {
-    min-height: 55%;
-  }
+	.container {
+		min-height: 55%;
+	}
 
-  /* Titlebar */
-  .titlebar {
-    display: flex;
-    font-size: var(--fs-800);
-    font-weight: bold;
-    justify-content: space-between;
-  }
+	/* Titlebar */
+	.titlebar {
+		display: flex;
+		font-size: var(--fs-800);
+		font-weight: bold;
+		justify-content: space-between;
+	}
 
-  .title {
-    color: var(--clr-text-light);
-    font-weight: var(--fw-bold);
-  }
-  /* Theme Tab */
-  .theme {
-    display: flex;
-    font-size: 1rem;
-    align-items: center;
-    color: white;
-    gap: 20px;
+	.title {
+		color: var(--clr-text-light);
+		font-weight: var(--fw-bold);
+	}
+	/* Theme Tab */
+	.theme {
+		display: flex;
+		font-size: 1rem;
+		align-items: center;
+		color: white;
+		gap: 20px;
 
-    .theme-widget {
-      display: flex;
-      padding: 15px 0;
-      flex-direction: column;
-      font-size: var(--fs-700);
-    .numbers{
-      font-size: var(--fs-500);
-      display: flex;
-      justify-content: space-between;
-    }
-    .slider {
-      display: flex;
-      border-radius: 20px;
-      padding: 5px;
-      width: 55px;
-      height: 25px;
-      background-color: var(--clr-keypad);
-      .switch {
-        align-self: center;
-        width: 15px;
-        height: 15px;
-        background-color: var(--clr-btn-red);
-        border-radius: 100px;
-      }
-    }
-  }
-}
+		.theme-widget {
+			display: flex;
+			padding: 15px 0;
+			flex-direction: column;
+			font-size: var(--fs-700);
+			.numbers {
+				font-size: var(--fs-500);
+				display: flex;
+				justify-content: space-between;
+			}
+			.slider {
+				display: flex;
+				border-radius: 20px;
+				padding: 5px;
+				width: 55px;
+				height: 25px;
+				background-color: var(--clr-keypad);
+				.switch {
+					align-self: center;
+					width: 15px;
+					height: 15px;
+					background-color: var(--clr-btn-red);
+					border-radius: 100px;
+				}
+			}
+		}
+	}
 
-  /* Result Window */
-  .window {
-    height: 20%;
-    display: flex;
-    padding: 6px 18px;
-    border-radius: 10px;
-    justify-content: end;
-    background-color: var(--clr-res-tab);
-  }
+	/* Result Window */
+	.window {
+		height: 20%;
+		display: flex;
+		padding: 6px 18px;
+		border-radius: 10px;
+		justify-content: end;
+		background-color: var(--clr-res-tab);
+	}
 
-  .res {
-    font-size: var(--fs-900);
-    font-weight: var(--fw-bold);
-    color: var(--clr-text-light);
-  }
+	.res {
+		font-size: var(--fs-900);
+		font-weight: var(--fw-bold);
+		color: var(--clr-text-light);
+	}
 
-  /* Numpad  */
-  .numpad {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--clr-keypad);
-    border-radius: 12px;
-    margin-top: 20px;
+	/* Numpad  */
+	.numpad {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: var(--clr-keypad);
+		border-radius: 12px;
+		margin-top: 20px;
 
-    .grid {
-    padding: 20px;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 20px;
-    }
-    .span-two {
-    grid-column: span 2;
-    }
+		.grid {
+			padding: 20px;
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			gap: 20px;
+		}
+		.span-two {
+			grid-column: span 2;
+		}
 
-  /* Numpad Buttons */  
-    .btn {
-      padding: 10px 30px;
-      border-radius: 12px;
-      font-weight: var(--fw-bold);
-      font-size:var(--fs-700);
-      border: none;
-    }
-    .btn:hover {
-      background: var(--clr-btn-hover);
-    }
-    
-    .btn-white {
-      background: var(--clr-btn);
-      color:var(--clr-text-dark);
-      border-bottom: 5px solid var(--clr-btn-br);
-    }
-    .btn-red {
-      background: var(--clr-btn-red);
-      color: var(--clr-text-light);
-      border-bottom: 5px solid var(--clr-btn-red-br);
-    }
-    .btn-red:hover {
-      background: var(--clr-btn-red-hover);
-    }
-    .btn-blue {
-      background: var(--clr-btn-blue);
-      color: var(--clr-text-light);
-      border-bottom: 5px solid var(--clr-btn-blue-br);
-    }
-    .btn-blue:hover {
-      background: var(--clr-btn-blue-hover);
-    }
-  }
-  
-  /* Footer */
-  .footer {
-    position: fixed;
-    bottom: 0;
-    padding: 25px;
-    text-align: center;
-    font-size: var(--fs-400);
-  }
+		/* Numpad Buttons */
+		.btn {
+			padding: 10px 30px;
+			border-radius: 12px;
+			font-weight: var(--fw-bold);
+			font-size: var(--fs-700);
+			border: none;
+		}
+		.btn:hover {
+			background: var(--clr-btn-hover);
+		}
+
+		.btn-white {
+			background: var(--clr-btn);
+			color: var(--clr-text-dark);
+			border-bottom: 5px solid var(--clr-btn-br);
+		}
+		.btn-red {
+			background: var(--clr-btn-red);
+			color: var(--clr-text-light);
+			border-bottom: 5px solid var(--clr-btn-red-br);
+		}
+		.btn-red:hover {
+			background: var(--clr-btn-red-hover);
+		}
+		.btn-blue {
+			background: var(--clr-btn-blue);
+			color: var(--clr-text-light);
+			border-bottom: 5px solid var(--clr-btn-blue-br);
+		}
+		.btn-blue:hover {
+			background: var(--clr-btn-blue-hover);
+		}
+	}
+
+	/* Footer */
+	.footer {
+		position: fixed;
+		bottom: 0;
+		padding: 25px;
+		text-align: center;
+		font-size: var(--fs-400);
+	}
 }
